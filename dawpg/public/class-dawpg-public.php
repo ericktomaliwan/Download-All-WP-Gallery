@@ -366,7 +366,7 @@ class Dawpg_Public {
 			//print_r($uploads);
 
 			//create zip folder in upload directory
-		$downloadmedia_dirname = 'edel-atrewards-media';
+		$downloadmedia_dirname = 'dawpg-media';
 		$downloadmedia_dir = $uploads['basedir'].'/'.$downloadmedia_dirname;
 		$downloadmedia_url = $uploads['baseurl'].'/'.$downloadmedia_dirname;
 		$date = date('Y-m-d');
